@@ -55,7 +55,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil.jpg">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi</span>
+							<span class="isim">Konuk İsmi 1</span>
 							<span class="ozet">İşi Mesleği</span>
 						</div>
 					</div>
@@ -66,7 +66,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil2.png">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi</span>
+							<span class="isim">Konuk İsmi 2</span>
 							<span class="ozet">İşi Mesleği</span>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil3.png">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi</span>
+							<span class="isim">Konuk İsmi 3</span>
 							<span class="ozet">İşi Mesleği Ama Uzun</span>
 						</div>
 					</div>
@@ -88,7 +88,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil4.png">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi Ama Uzun</span>
+							<span class="isim">Konuk İsmi Ama Uzun 4</span>
 							<span class="ozet">İşi Mesleği Ama Uzun</span>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil5.png">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi Ama Uzun</span>
+							<span class="isim">Konuk İsmi Ama Uzun 5</span>
 							<span class="ozet">İşi Mesleği</span>
 						</div>
 					</div>
@@ -110,7 +110,7 @@
 					<div class="speakerinfo">
 						<img class="photo" src="profil6.jpg">
 						<div style="display: flex; flex-direction: column;">
-							<span class="isim">Konuk İsmi Ama Uzun</span>
+							<span class="isim">Konuk İsmi Ama Uzun 6</span>
 							<span class="ozet">İşi Mesleği</span>
 						</div>
 					</div>
@@ -125,6 +125,19 @@
 			</div>
 		</div>
 	</div>
+	<div class="modal-overlay" id="modalOverlay">
+		<div class="modal">
+			<button class="modal-close" onclick="closeModal()">&times;</button>
+			<img id="modalPhoto" class="photo" src="profil.jpg" alt="Speaker photo" style="display:block; margin:0 auto 20px; width: 200px; height: 200px; border-radius: 100px;">
+			<div class="modal-title" id="modalTitle">Speaker Name</div>
+			<div class="modal-date" id="modalDate">14 Aralık 15.00</div>
+			<div class="modal-bio" id="modalBio">Speaker biography and details will appear here.</div>
+			<div class="modal-socials">
+				<a href="#" id="modalInstagram"><img src="instagram_icon.svg" alt="Instagram"></a>
+			</div>
+		</div>
+	</div>
+	<script src="modal.js"></script>
 	<script src="countdown.js"></script>
 </body>
 </html>
