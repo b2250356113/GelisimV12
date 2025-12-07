@@ -4,7 +4,7 @@ const speakersData = [
 		date: "17 Aralık",
 		time: "12.00",
 		profession: "İçerik Üreticisi",
-		bio: "2015 yılından beri çeşitli projelerde çeşitli görevler aldı. 2018 yılında film yapımına tam zamanlı olarak uğraşşmak için Bilkent Üniversitesi Ekonomi Bölümü'nü bıraktı. Sinema sektöründe çeşitli pozisyonlarda deneyim kazanmasının yanı sıra videography yaptı. Çektiği kısa filmler ödüller ve seçkiler kazandı. Demir, 2025 yazında ise sosyal medya içerik üreticiliği ile yeni bir maceraya yelken açtı.",
+		bio: "2015 yılından beri çeşitli projelerde çeşitli görevler aldı. 2018 yılında film yapımına tam zamanlı olarak uğraşmak için Bilkent Üniversitesi Ekonomi Bölümü'nü bıraktı. Sinema sektöründe çeşitli pozisyonlarda deneyim kazanmasının yanı sıra videography yaptı. Çektiği kısa filmler ödüller ve seçkiler kazandı. Demir, 2025 yazında ise sosyal medya içerik üreticiliği ile yeni bir maceraya yelken açtı.",
 		instagram: "#",
 		x: "#",
 		photo: "said_demir.jpg"
@@ -14,7 +14,7 @@ const speakersData = [
 		date: "17 Aralık",
 		time: "13.30",
 		profession: "Sanatçı",
-		bio: "7 yaşından beri illüzyon sanatıyla ilgilenen Yılmaz, henüz 16 yaşında ilk uluslarası yarışmasını kazanarak kariyerinde profesyonel bir adım attı. Sonrasında yurt dışında birçok yarışmada boy gösterdi ve sahne deneyimi kazandı. 25 yaşında 18 yıllık sahne geçmişi olan Yılmaz, çeşitli etkinliklerde yer alarak tecrübelerini ve sanatını kitlelerle paylaşmaya devam ediyor.",
+		bio: "7 yaşından beri illüzyon sanatıyla ilgilenen Yılmaz, henüz 16 yaşında ilk uluslarası yarışmasını kazanarak kariyerinde profesyonel bir adım atmıştır. Sonrasında yurt dışında birçok yarışmada boy göstermiş ve sahne deneyimi kazanmıştır. 25 yaşında 18 yıllık sahne geçmişi olan Yılmaz, çeşitli etkinliklerde yer alarak tecrübelerini ve sanatını kitlelerle paylaşmaya devam etmektedir.",
 		instagram: "#",
 		x: "#",
 		photo: "batuhan_yilmaz.jpg"
@@ -24,40 +24,40 @@ const speakersData = [
 		date: "17 Aralık",
 		time: "15.00",
 		profession: "Dijital İçerik Üreticisi",
-		bio: "Bilkent Üniveritesi Bilgisayar Mühendisliği Bölümü'nden mezun olan Aybalık, 2021 yılında hikaye anlatılığı tutkusu ile 'Portal' YouTube kanalını hayata geçirdi. Sanat, edebiyat ve felsefe disiplinlerine odaklanan videolarında; ele aldığı sanat eserlerini felsefi ve psikolojik kavramlarla harmanlayıp izleyiciye sunuyor. Ayrıca, Spotify üzerinden 'Portal ile Yansıma' ismiyle podcast yayıncılığı da yapmaktadır.",
+		bio: "Bilkent Üniveritesi Bilgisayar Mühendisliği Bölümü'nden mezun olan Aybalık, 2021 yılında hikaye anlatıcılığı tutkusu ile 'Portal' YouTube kanalını hayata geçirmiştir. Sanat, edebiyat ve felsefe disiplinlerine odaklanan videolarında; ele aldığı sanat eserlerini felsefi ve psikolojik kavramlarla harmanlayıp izleyiciye sunmaktadır. Ayrıca, Spotify üzerinden 'Portal ile Yansıma' ismiyle podcast yayıncılığı da yapmaktadır.",
 		instagram: "#",
 		x: "#",
 		photo: "can_aybalik.jpg"
 	},
 	{
-		name: "Konuk İsmi Ama Uzun 4",
+		name: "Ömer Semi ÜNAL",
 		date: "18 Aralık",
 		time: "12.00",
-		profession: "İşi Mesleği Ama Uzun",
-		bio: "Konuk İsmi Ama Uzun 4 hakkında kısa bilgi: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		profession: "Antrenör & Diyetisyen",
+		bio: "Sosyal medyada 'Kelömer' ismiyle tanınan Ünal; kendi fiziksel dönüşüm serüveninde edindiği disiplin ve tecrübeyi, bilimsel temellerle birleştirerek profesyonel bir metoda dönüştürmüştür. Sadece yöntemleri değil, yöntemler arkasındaki nedenleri de takipçilerine ve danışanlarına aktarmayı ilke edinmiştir. Gelişimi bir sonuçtan ziyade bir süreç olarak ele alır ve bilimi pratikle harmanlayarak dürüst ve gerçekçi yaklaşımıyla insanlara rehberlik eder.",
 		instagram: "#",
 		x: "#",
-		photo: "profil4.png"
+		photo: "omer_unal.jpg"
 	},
 	{
-		name: "Konuk İsmi Ama Uzun 5",
+		name: "Görkem ŞAHİN",
 		date: "18 Aralık",
 		time: "13.30",
-		profession: "İşi Mesleği",
-		bio: "Konuk İsmi Ama Uzun 5 hakkında kısa bilgi: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		profession: "Eğitimci & Dijital İçerik Üreticisi",
+		bio: "Kimyayı sadece bir ders olarak değil bir hikaye olarak anlatmayı hedefleyen eğitimci ve içerik üreticisidir. YKS öğrencilerine yönelik kitaplar, videolar ve sınıf içi motivasyon projeleriyle kısa sürede geniş bir kitleye ulaşmıştır. Eğlenceli ve akılda kalıcı bir öğrenme süreci yaşatmasının yanı sıra gençlere sahne söyleşileri ve motivasyon konuşmalaryla da ilham vermektedir.",
 		instagram: "#",
 		x: "#",
-		photo: "profil5.png"
+		photo: "gorkem_sahin.jpg"
 	},
 	{
-		name: "Konuk İsmi Ama Uzun 6",
+		name: "Doç. Dr. Gökçen ERDOĞAN",
 		date: "18 Aralık",
 		time: "15.00",
-		profession: "İşi Mesleği",
-		bio: "Konuk İsmi Ama Uzun 6 hakkında kısa bilgi: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		profession: "Kadın Hastalıkları ve Doğum Uzmanı",
+		bio: "Uludağ Üniversitesi Tıp Fakültesi mezunudur. Uzmanlığını tamamladıktan sonra yüksek lisansını 'halk sağlığı', doktorasını ise 'sosyal psikoloji' üzerine Başkent Üniversitesinde yapmıştır. Birçok üniversitede 'jinekolojik kozmetoloji' alanında eğitmen olarak görev almaktadır. Tıbbi birikimini toplumsal farkındalık çalışmalarıyla birleştiren Erdoğan; 2013, 2014, 2017, 2022 ve 2025 yıllarında kitaplar yayımlamıştır. Bunlara ek olarak 'kozmetik jinekoloji' alanında global ölçekte kabul gören 6 akademik kitabın da editörlüğünü üstlenmiştir.",
 		instagram: "#",
 		x: "#",
-		photo: "profil6.jpg"
+		photo: "gokcen_erdogan.jpg"
 	}
 ];
 
