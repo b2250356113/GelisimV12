@@ -7,7 +7,7 @@ const speakersData = [
 		bio: "2015 yılından beri çeşitli projelerde çeşitli görevler aldı. 2018 yılında film yapımına tam zamanlı olarak uğraşmak için Bilkent Üniversitesi Ekonomi Bölümü'nü bıraktı. Sinema sektöründe çeşitli pozisyonlarda deneyim kazanmasının yanı sıra videography yaptı. Çektiği kısa filmler ödüller ve seçkiler kazandı. Demir, 2025 yazında ise sosyal medya içerik üreticiliği ile yeni bir maceraya yelken açtı.",
 		instagram: "#",
 		x: "#",
-		photo: "said_demir.jpg"
+		photo: "said_demir.png"
 	},
 	{
 		name: "Batuhan YILMAZ",
@@ -17,7 +17,7 @@ const speakersData = [
 		bio: "7 yaşından beri illüzyon sanatıyla ilgilenen Yılmaz, henüz 16 yaşında ilk uluslarası yarışmasını kazanarak kariyerinde profesyonel bir adım atmıştır. Sonrasında yurt dışında birçok yarışmada boy göstermiş ve sahne deneyimi kazanmıştır. 25 yaşında 18 yıllık sahne geçmişi olan Yılmaz, çeşitli etkinliklerde yer alarak tecrübelerini ve sanatını kitlelerle paylaşmaya devam etmektedir.",
 		instagram: "#",
 		x: "#",
-		photo: "batuhan_yilmaz.jpg"
+		photo: "batuhan_yilmaz.png"
 	},
 	{
 		name: "Can 'Portal' AYBALIK",
@@ -27,7 +27,7 @@ const speakersData = [
 		bio: "Bilkent Üniveritesi Bilgisayar Mühendisliği Bölümü'nden mezun olan Aybalık, 2021 yılında hikaye anlatıcılığı tutkusu ile 'Portal' YouTube kanalını hayata geçirmiştir. Sanat, edebiyat ve felsefe disiplinlerine odaklanan videolarında; ele aldığı sanat eserlerini felsefi ve psikolojik kavramlarla harmanlayıp izleyiciye sunmaktadır. Ayrıca, Spotify üzerinden 'Portal ile Yansıma' ismiyle podcast yayıncılığı da yapmaktadır.",
 		instagram: "#",
 		x: "#",
-		photo: "can_aybalik.jpg"
+		photo: "can_aybalik.png"
 	},
 	{
 		name: "Ömer Semi ÜNAL",
@@ -37,7 +37,7 @@ const speakersData = [
 		bio: "Sosyal medyada 'Kelömer' ismiyle tanınan Ünal; kendi fiziksel dönüşüm serüveninde edindiği disiplin ve tecrübeyi, bilimsel temellerle birleştirerek profesyonel bir metoda dönüştürmüştür. Sadece yöntemleri değil, yöntemler arkasındaki nedenleri de takipçilerine ve danışanlarına aktarmayı ilke edinmiştir. Gelişimi bir sonuçtan ziyade bir süreç olarak ele alır ve bilimi pratikle harmanlayarak dürüst ve gerçekçi yaklaşımıyla insanlara rehberlik eder.",
 		instagram: "#",
 		x: "#",
-		photo: "omer_unal.jpg"
+		photo: "omer_unal.png"
 	},
 	{
 		name: "Görkem ŞAHİN",
@@ -47,7 +47,7 @@ const speakersData = [
 		bio: "Kimyayı sadece bir ders olarak değil bir hikaye olarak anlatmayı hedefleyen eğitimci ve içerik üreticisidir. YKS öğrencilerine yönelik kitaplar, videolar ve sınıf içi motivasyon projeleriyle kısa sürede geniş bir kitleye ulaşmıştır. Eğlenceli ve akılda kalıcı bir öğrenme süreci yaşatmasının yanı sıra gençlere sahne söyleşileri ve motivasyon konuşmalaryla da ilham vermektedir.",
 		instagram: "#",
 		x: "#",
-		photo: "gorkem_sahin.jpg"
+		photo: "gorkem_sahin.png"
 	},
 	{
 		name: "Doç. Dr. Gökçen ERDOĞAN",
@@ -57,7 +57,7 @@ const speakersData = [
 		bio: "Uludağ Üniversitesi Tıp Fakültesi mezunudur. Uzmanlığını tamamladıktan sonra yüksek lisansını 'halk sağlığı', doktorasını ise 'sosyal psikoloji' üzerine Başkent Üniversitesinde yapmıştır. Birçok üniversitede 'jinekolojik kozmetoloji' alanında eğitmen olarak görev almaktadır. Tıbbi birikimini toplumsal farkındalık çalışmalarıyla birleştiren Erdoğan; 2013, 2014, 2017, 2022 ve 2025 yıllarında kitaplar yayımlamıştır. Bunlara ek olarak 'kozmetik jinekoloji' alanında global ölçekte kabul gören 6 akademik kitabın da editörlüğünü üstlenmiştir.",
 		instagram: "#",
 		x: "#",
-		photo: "gokcen_erdogan.jpg"
+		photo: "gokcen_erdogan.png"
 	}
 ];
 
