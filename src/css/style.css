@@ -20,7 +20,6 @@ html, body {
 	margin: 0;
 	font-family: 'Touche';
 	color: #a1bbd4;
-	overflow-x: hidden;
 	-webkit-tap-highlight-color: transparent;
 }
 .fillgridnull {
@@ -153,6 +152,14 @@ a.vurgu:hover {
 	padding-bottom: 20px;
 	font-size: 20px;
 }
+h1#status {
+	text-align: center;
+	color: white;
+	font-family: 'Touche Bold';
+	margin: 8px 0;
+	font-size: 48px;
+	display: none;
+}
 .container .content {
 	grid-area: C;
 	display: grid;
@@ -212,7 +219,7 @@ a.vurgu:hover {
 .ozet {
 	font-size: 16px;
 	line-height: 20px;
-	margin: -10px 20px 20px 20px;
+	margin: -10px 20px 10px 20px;
 }
 .socials {
 	display: flex;
@@ -220,8 +227,8 @@ a.vurgu:hover {
 	gap: 10px;
 }
 .social {
-	padding: 0 5px;
-	height: 20px;
+	width: 24px;
+	height: 24px;
 }
 .footer {
 	display: block;
@@ -289,7 +296,7 @@ a.vurgu:hover {
 	.background {
 		z-index: -1;
 		width: 100%;
-		height: calc(100vh + 20px);
+		height: 100vh;
 		background-image: url("backgrounds/gelisim_arka_plan_pc.png");
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -300,18 +307,12 @@ a.vurgu:hover {
 		top: 0;
 		left: 0;
 	}
-	/* Opera browser specific fix | İŞE YARAMADI */
-	@supports (-webkit-appearance: none) {
-		.background {
-			height: calc(100vh + 50px);
-		}
-	}
 }
 @media (orientation: portrait) {
 	.background {
 		z-index: -1;
 		width: 100%;
-		height: calc(100vh + 20px);
+		height: 100vh;
 		background-image: url("backgrounds/gelisim_arka_plan_mob.png");
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -321,12 +322,6 @@ a.vurgu:hover {
 		margin: 0;
 		top: 0;
 		left: 0;
-	}
-	/* Opera browser specific fix | İŞE YARAMADI */
-	@supports (-webkit-appearance: none) {
-		.background {
-			height: calc(100vh + 50px);
-		}
 	}
 }
 
@@ -376,6 +371,9 @@ a.vurgu:hover {
 	.content {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
+	}
+	h1#status {
+		font-size: 28px;
 	}
 }
 
@@ -582,15 +580,15 @@ a.vurgu:hover {
 	font-size: 14px;
 	line-height: 1.6;
 	color: #a1bbd4;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	text-align: center;
 	max-height: calc(100% - 500px);
 	overflow-y: auto;
 }
 .modal-socials {
 	display: flex;
-	gap: 15px;
-	margin-top: 20px;
+	gap: 10px;
+	margin-top: 0px;
 	justify-content: center;
 }
 .modal-socials a {
@@ -601,6 +599,17 @@ a.vurgu:hover {
 	transform: scale(1.1);
 }
 .modal-socials img {
+	width: 24px;
+	height: 24px;
+}
+.socials a {
+	display: inline-block;
+	transition: transform 0.2s;
+}
+.socials a:hover {
+	transform: scale(1.1);
+}
+.socials img {
 	width: 24px;
 	height: 24px;
 }

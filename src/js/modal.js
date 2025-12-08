@@ -74,8 +74,8 @@ function createSpeakerElement(speaker, index) {
 			</div>
 		</div>
 		<div class="socials">
-			<a href="${speaker.instagram}"><img class="social" src="logos/instagram_icon.svg"></a>
-			<a href="${speaker.yt}"><img class="social" src="logos/yt_icon.png"></a>
+			<a href="${speaker.instagram}"><img class="social" src="logos/ins2.png"></a>
+			<a href="${speaker.yt}"><img class="social" src="logos/yt2.png"></a>
 		</div>
 	`;
 	return div;
