@@ -1,6 +1,6 @@
 (function(){
 	const target = new Date('2025-12-17T12:00:00');
-	const eventEndDate = new Date('2025-12-18T17:00:00');
+	const eventEndDate = new Date('2025-12-18T16:30:00');
 	let moved = false;
 	let copied = false;
 	let statusUpdated = false;
@@ -71,11 +71,13 @@
 	function updateStatusText(){
 		const status = document.getElementById('status');
 		if (!status) return;
-		if (Date.now() > eventEndDate.getTime() && status.textContent !== 'Etkinlik Bitti :(') {
+		if (Date.now() > eventEndDate.getTime()) {
 			status.textContent = 'Etkinlik Bitti :(';
 			status.classList.remove('animated-text');
-			document.getElementById('modalForm').style.display = 'none';
-			print(update)
+			const modalForm = document.getElementById('modalForm');
+			if (modalForm) modalForm.style.display = 'none';
+		} else {
+			status.textContent = 'Etkinlik Devam Ediyor';
 		}
 	}
 
@@ -88,13 +90,11 @@
 			if (e1) e1.textContent = txt[0];
 			if (e2) e2.textContent = txt[1];
 		});
-
 		updateStatusText();
 		if (parts.total === 0 && !statusUpdated) {
 			showStatusAndHideCountdown();
 			statusUpdated = true;
 		}
-
 		if (parts.total === 0 && !moved && !copied && isLargeScreen()) {
 			moveParagraphToIntro();
 		}
@@ -103,17 +103,14 @@
 	document.addEventListener('DOMContentLoaded', () => {
 		const status = document.getElementById('status');
 		if (status) status.style.display = 'none';
-
 		if (Date.now() > target.getTime()) {
 			showStatusAndHideCountdown();
 			updateStatusText();
 			statusUpdated = true;
-
 			if (isLargeScreen()) {
 				copyParagraphToIntro();
 			}
 		}
-
 		updateOnce();
 		setInterval(updateOnce, 1000);
 	});
