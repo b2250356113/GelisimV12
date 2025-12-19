@@ -72,7 +72,7 @@
 		const status = document.getElementById('status');
 		if (!status) return;
 		if (Date.now() > eventEndDate.getTime()) {
-			status.textContent = 'Etkinlik Bitti :(';
+			status.textContent = 'Etkinlik Sona Erdi';
 			status.classList.remove('animated-text');
 			const modalForm = document.getElementById('modalForm');
 			if (modalForm) modalForm.style.display = 'none';
